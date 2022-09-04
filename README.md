@@ -1,0 +1,2 @@
+# Aurico
+Money manager
