@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>function Playwelcome(){
+    var trum = new Audio("HTML_files/trumpet.wav");
+    trum.play();
+    
+    function Gogo(){window.location.href= "/CSSanim2.html";}    
+
+   window.setTimeout(Gogo,5000);
+    
+    }
+    
+    
+    
+        
+function Glow(){document.getElementById("Aurico").style.color = "yellow";
+document.getElementById("Aurico").style.color = "red";
+document.getElementById("Aurico").style.color = "orange";}
+    
+    
+
+
+    
+
+</script>    
+<meta lang="en" charset="utf-8"> 
+<link rel="stylesheet" href="CSSanim.css">
+<link rel="script" href="Aurico.jss">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">    
+</head>
+<body height="1000px" width="1000px">
+<div height="50px" width="50px" id = "centralicon"><img src="" alt=""></div>
+<div id="bee2"><img id="bee1" height = "100px"  src="HTML_files/bee1.png" alt="bee"></div>     
+
+    <div id= "window" height="1000px" width="1000px"> 
+    <div class="fanciful"><div id="coinfr"><div id="bd" class=fancifulh>
+<svg viewbox="-250 -600 1000 1000" id="fanciful" onclick="Playwelcome()" onhover="Glow()"><path id="tcon" d="M-150 50 c 25 0, 150 200, 425 20" fill="transparent"/>
+    <text id="mytext"><textPath xlink:href="#tcon" textLength="425" startOffset="25" font-size="140" font-weight="bold">Aurico       </textPath></text>
+    <animate xlink:href="#mytext" attributeName="fill" values="red;yellow;orange;purple" dur="30s"repeatCount="indefinite"></animate>
+  
+    
+    
+</svg>    
+</div> </div>
+        
+        
+        <h1 id="Aurico" onclick="Playwelcome()" onmouseover="Glow()" ></h1>
+    </div>
+    <div id="fancybaby"><center>Make your money <br> work for <br> you</center></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
