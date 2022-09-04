@@ -1,0 +1,118 @@
+
+body {
+    background-color:white;
+    
+}
+
+
+body .fanciful {
+    display:flex;
+    height:66vw;
+    justify-content:center;
+    align-items:center;
+        
+}
+
+
+
+
+body #fancybaby{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+    
+#coinfr{
+    border:solid black 10px;
+    border-radius:100px;
+    height:150px;
+    width:150px;
+    transform:translate(3%,-20%);
+    background-color:white;
+    position:absolute;
+}
+
+#Aurico{
+    transform:translate(-40%,30%);
+}
+
+
+@font-face{
+    font-family:"Dancing Script";
+    src: url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+}
+
+#bd{
+    transform:translate(-23%,-46%);
+    height:800px;
+    width:800px;
+    position:relative;
+    
+}
+
+.fanciful{
+    color:red;
+    font-family:"Dancing Script";
+    font-size:60px;
+    height:100px;
+    width:900px;
+    animation: twilesce 30s infinite;
+    animation-timing-function:steps(30,end);
+    border-width:100px 60px 100px 60px;
+    border: ridge (254,251,234,1);
+    
+    
+    background-image:url(/HTML_files/bluesky.jpg);
+    background-size: contain;
+    
+    
+}
+
+.fancifulh{
+    animation: twilesce2 30s infinite;
+}
+
+#bee1 {animation: bee1 3s forwards}; animation-timing-function:steps(6
+    2,end);}
+
+
+#bee2 {animation: bee2 5s infinite;}
+
+
+#fancybaby{    
+    color:red;
+    font-family:"Dancing Script";
+    font-size:30px;
+    transform:translateY(-170%);
+}
+
+
+
+@keyframes bee1{
+    40% {transform:translate(50%,-30%);
+    }
+
+100%{transform:translate(300%,300%);}
+}
+
+
+
+
+@keyframes twilesce {
+    45% {color:red;}
+    60% {color:darkorange;}
+    75% {color:purple;}
+    90% {color:yellow;}
+    
+}
+
+
+@keyframes twilesce2 {
+    45% {color:red;}
+    60% {color:darkorange;}
+    75% {color:purple;}
+    90% {color:yellow;}
+    
+}
+
+
