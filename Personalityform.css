@@ -1,0 +1,57 @@
+body{
+    background-color:darkslategray;
+    color:white;
+    
+}
+
+
+@font-face{
+    font-family:"Rajdhani";
+    src: url("/HTML_files>/Rajdhani/Rajdhani-Medium.ttf");
+    font-weight:normal;
+    font-style:normal;
+    
+    
+}
+
+#myform {
+    height:1000px;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-evenly;
+    align-items:center;
+    background-image:url(/HTML_files/Backgroundban1.jpg);
+    background-repeat:repeat-;
+    color:firebrick;
+    font-size:20px;
+    
+    
+    
+}
+.r{
+    width:300px;
+    
+}
+
+.Q {
+    align-items: center;
+    text-align:center;
+    background-color:white;
+    height:5vw;
+    border-radius:25px;
+    width:96vw;
+    border:black solid;
+    transform:translateX(3%);
+    font-family: Radjhani;
+    
+    
+    
+}
+
+#go{
+    background-color:darkblue;
+    height:50px;
+    border-radius:25px;
+    color:white;
+    
+}
