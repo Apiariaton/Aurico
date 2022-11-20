@@ -1,0 +1,92 @@
+body{
+    background-color:darkslategray;
+    color:white;
+    
+}
+
+
+@font-face{
+    font-family:"Rajdhani";
+    src: url("/HTML_files>/Rajdhani/Rajdhani-Medium.ttf");
+    font-weight:normal;
+    font-style:normal;
+    
+    
+}
+
+#myform {
+    height:1000px;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-evenly;
+    align-items:center;
+    background-image:linear-gradient(grey,white);
+    background-repeat:contain;
+    color:firebrick;
+    font-size:20px;
+    animation: fade 10s ease-out;
+    
+    
+}
+.r{
+    width:300px;
+    background-color:red;
+    
+}
+
+.Q {
+    align-items: center;
+    text-align:center;
+    background-color:white;
+    height:5vw;
+    border-radius:25px;
+    width:96vw;
+    border:black solid;
+    transform:translateX(3%);
+    font-family: Radjhani;
+    animation: appear 0.4s linear;
+    
+    
+    
+}
+
+#go{
+    background-color:darkblue;
+    height:50px;
+    border-radius:25px;
+    color:white;
+    
+}
+
+@keyframes fade{
+    from {background-image:url(/HTML_files/HCBEE.jpg);}
+    
+    66%   100% {background-image:white;
+    
+  }
+    
+    
+}
+
+.ro {
+    background-color:pink;
+    
+}
+
+
+@keyframes appear {
+    from {opacity:0
+          color:white;}
+    
+    100% {opacity:1;}
+    
+    
+}
+
+
+.ro input[type="range"]{
+  background-color:greenyellow;  
+    
+    
+    
+}
